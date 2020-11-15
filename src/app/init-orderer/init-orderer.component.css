@@ -1,0 +1,15 @@
+.init-orderer-container {
+    padding: 16px;
+}
+
+.enter-button,
+.clear-button {
+    height: 4em;
+    width: 8em;
+    bottom: 10px;
+    left: 10px;
+}
+
+.clear-button {
+    margin-left: 10px;
+}

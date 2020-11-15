@@ -1,0 +1,27 @@
+<div class="init-orderer-container">
+    <mat-form-field appearance="fill">
+        <mat-label>Enter character name</mat-label>
+        <input matInput #nameInput>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Enter roll value</mat-label>
+        <input matInput #rollInput maxlength="2">
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Enter roll modifier</mat-label>
+        <input matInput #modInput maxlength="2">
+    </mat-form-field>
+
+    <button mat-flat-button color="primary" class="enter-button" (click)="addCharacter(nameInput.value, rollInput.value, modInput.value)">Enter</button>
+
+    <button mat-flat-button color="warn" class="clear-button" (click)="clearCharacters()">Clear</button>
+
+    <ol>
+        <li *ngFor="let character of characters">
+            <h3>{{character[0]}} (roll: {{character[1]}}, modifier: {{character[2]}})</h3>
+        </li>
+    </ol>
+
+</div>

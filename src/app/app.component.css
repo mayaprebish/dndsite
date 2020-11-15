@@ -1,0 +1,10 @@
+.app {
+    background-color: gray;
+    padding: 36px;
+    min-height: 56em;
+}
+
+.app-container {
+    background-color: #eee;
+    min-height: 36em;
+}

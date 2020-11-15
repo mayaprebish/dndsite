@@ -1,0 +1,16 @@
+.characters-container {
+    padding: 24px;
+}
+
+.art {
+    height: 24em;
+    width: 98%;
+}
+
+img {
+    width: 90%;
+}
+
+mat-panel-description {
+    justify-content: flex-end;
+}

@@ -11,5 +11,10 @@
 }
 
 .clear-button {
+    background-color: #a1a1a1;
     margin-left: 10px;
+}
+
+.enter-button {
+    background-color: #656565;
 }

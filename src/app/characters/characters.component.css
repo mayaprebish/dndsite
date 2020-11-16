@@ -11,6 +11,8 @@ img {
     width: 90%;
 }
 
+mat-panel-title {}
+
 mat-panel-description {
     justify-content: flex-end;
 }

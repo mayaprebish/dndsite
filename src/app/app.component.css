@@ -1,10 +1,10 @@
 .app {
-    background-color: gray;
+    background-color: #8d949d;
     padding: 36px;
     min-height: 56em;
 }
 
 .app-container {
-    background-color: #eee;
+    background-color: #F8F8F8;
     min-height: 36em;
 }
